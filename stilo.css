@@ -1,0 +1,473 @@
+/*FONTE MANROPE*/
+body{
+  font-family: 'Manrope';
+}
+
+/* tamannhos em resoluçoes superiores a 600px */
+@media screen and (min-width: 601px) {
+  .funcoes button {
+    font-size: 14px;
+  }
+  .logotipo{
+    padding-left: 1vw;
+    min-width: 50px;
+    max-width: 80%; 
+  }
+  .funcoes table{
+    width:40%;
+    margin:auto;
+    min-width: 300px;
+  }
+  .apresentacao th{
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 80px;
+  }
+  .imgapresenta{
+    width: fit-content;
+  }
+  .sol{
+    width: 60px;
+  }
+  .servicos div.row{
+    padding-left: 17%;
+    padding-right: 17%;
+  }
+  
+  .dropdownNavServico{
+    visibility: collapse;
+  }
+
+  .clientes{
+    padding-top: 20px;
+  }
+
+  .clientes h1{
+    padding-left: 3vw;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .clientesFilho{
+    margin-left: 5%;
+    margin-right: 10%;
+  }
+  
+  .MidiaMarketing{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .blogpost{
+    width: 25%;
+  }
+
+  .redesSociais{
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  
+}
+
+/* inferiores */
+@media screen and (max-width: 600px) {
+  .funcoes table{
+    width:35%;
+    margin:auto;
+    min-width: 100px;
+  }
+  .funcoes button {
+    font-size: 1.2vw;
+  }
+  .logotipo{
+    min-width: 35px; 
+  }
+  .apresentacao th{
+    font-size: 9vw;
+  }
+  .imgapresenta{
+    width:10%;
+  }
+  .sol{
+    width: 50px;
+  }
+
+.descricao{
+  width:100%;
+}.navser{
+  position: absolute;
+  background-color: #bbbbbb;
+  width:50%;
+}
+
+.clientes h1{
+  padding-bottom: 20px;
+}
+  
+  .descricao{
+    height:800px;
+  }.navservicos{
+    height:800px;
+  }
+
+  .blogpost{
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 80%;
+  }
+  .blogpost img{
+    padding-top: 20px;
+  }
+
+  .fim .contat{
+    font-size: 2vw;
+  }.email{
+    float:left;
+  }
+  
+}
+
+.navbar a{
+  color: black;
+}.navbar a:hover{
+  color: #F95605;
+}
+
+.funcoes{
+    padding:10px 5px 10px 5px;
+}
+
+.funcoes button{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Manrope';
+    /*--bs-btn-font-family: Verdana;*/
+    --bs-btn-font-weight: 700;
+    --bs-btn-color: var(--bs-black);
+    --bs-btn-border-color: var(--bs-black);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg:var(--bs-black);
+    --bs-btn-border-radius: 12rem;
+}
+
+
+  .navegacao{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #dddddd;
+    --bs-nav-link-padding-x: 100;
+  }
+
+  .nav-item{
+    padding-left:30px;
+    font-family: 'Manrope';
+    font-weight: 600;
+  }
+
+  .imgapresenta{
+    vertical-align: middle;
+    margin: 0;
+  }
+
+  .apresentatext{
+    margin: auto;
+  }
+
+  .navmidia th{
+    padding-right: 25px;
+    padding-left: 25px;
+    border-left:1px solid #dddddd;
+  }
+
+  .apresentacao{
+    padding-top: 100px;
+    position: relative;
+  }
+  .imgGrupo242{
+    position:absolute;
+    right: 0;
+    top:0;
+  }
+
+  .apresentacao td{
+    width: 10%;
+  }
+
+  .apresentacao tr{
+    border-bottom: 1px solid #bbbbbb;
+  }
+
+  .apresentacao th{
+    font-family: 'Manrope';
+  }
+
+  .ola{
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 50px;
+  }
+
+  .eestamos{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 450;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+  
+  .parallax {
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }.parallaxBlog {
+    /*background-attachment: fixed;*/
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .servicoh1{
+    border-bottom:1px solid #bbbbbb;
+  }
+
+  .servicos .td{
+    width: 50%;
+  }
+  .servicos h1{
+    padding: 30px;
+    padding-left: 60px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 50px;
+  }
+
+  .servicos button{
+    display: block;
+    font-size: 20px;
+    /*--bs-btn-font-family: Verdana;*/
+    --bs-btn-font-weight: 500;
+    --bs-btn-color: var(--bs-black);
+    --bs-btn-border-color: var(--bs-black);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg:#F95605;
+    --bs-btn-border-radius: 12rem;
+}
+
+
+.descricao img{
+  width:100%;
+}
+
+.servSeta{
+  padding-left: 10px;
+}
+
+.servicostext{
+  text-decoration: underline;
+  font-family: 'Manrope';
+  font-weight: 100;
+  font-size: 35px;
+}
+
+.servico{
+  text-decoration: underline;
+  font-family: 'Manrope';
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.servicodescricao{
+  font-family: 'Manrope';
+  font-size: 25px;
+  font-weight: 50;
+}
+
+.navservicos div{
+  margin-bottom:auto;
+}
+
+a { color: inherit; text-decoration: none;} 
+
+.carousel{
+  --carousel-indicator-spacer: 0px;
+  --carousel-indicator-active-bg:  black;
+}
+
+.clientes .carousel p{
+  padding-bottom: 50px;
+}
+
+
+.clientes .carousel .p-2{
+  width: 30%;
+}
+
+.carousel-inner img{
+  width: 80px;
+}
+
+.nomeCliente{
+  padding-top: 20px;
+  font-family: 'Manrope';
+  text-decoration: underline;
+  font-weight: 100;
+  font-size: 30px;
+  
+}
+
+.cardPai{
+  min-height: 285px;
+  display: flex;
+}
+.cardN{
+  height: 20%;
+  margin-bottom: 0;
+  margin-top: auto;
+}.cardL{
+  height: 20%;
+}.cardD{
+  padding-top: 10px;
+  height: 50%;
+}
+  
+.MidiaMarketing{
+  width: 100%;
+}.MidiaMarketing img{
+  width: auto;
+}
+  
+.quemsomos div{
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+}
+
+.quemsomos .p-2{
+  border-top:1px solid #dddddd;
+  
+}
+
+.quemsomos .p-2 p{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 20px;
+}
+
+.quemsomos h1{
+  padding-bottom: 15px;
+  font-size: 60px;
+  font-weight: 400;
+}.quemsomos h2{
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.contato{
+  padding-top: 50px;
+}.blogPS{
+  border-bottom: 1px solid #dddddd;
+}
+
+.contato a{
+  color:black;
+  font-size: 23px;
+}.contato img{
+  padding-bottom: 20px;
+}.contato p{
+  font-size: 20px;
+}
+
+
+
+.contato .row{
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+}.contato .flex-row{
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+}
+
+.blogh1{
+  padding-bottom: 15px;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.borderR{
+  border-right: 1px solid #dddddd;
+}
+.fim .p-2{
+  width: 25%; 
+}
+.redesSociais{
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+.redesSociais p{
+  text-align: center;
+}.redesSociais svg{
+  padding-top: 50px;
+  display: block;
+  margin:auto;
+  
+}
+.vamosConversar{
+  height: 200px
+}.vamosConversar a{
+  color:black;
+}
+
+.faleConosco{
+  height: 100px;
+  background-color: #d3cfca;
+}
+
+.blogH1{
+  padding-left: 5%;
+  font-size: 50px;
+  padding-top: 90px;
+}.blogTitulo{
+  padding-top: 40px;
+  padding-bottom: 50px;
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 10%;
+  padding-right:10%;
+}.blogText{
+  padding-left: 10%;
+  padding-right:10%;
+  font-size: 25px;
+}.blogTitle{
+  font-size: 25px;
+  text-decoration: underline;
+  color:rgb(0, 47, 255);
+}.blogimgtext{
+  margin-left: 10%;
+  margin-right:10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}.blogImg{
+  visibility: hidden;
+  height: 50vw;
+}
+
+
+.control{
+  padding-top: 30px;
+}.continuarNavegando{
+  font-size: 30px;
+}.control .p-2{
+  margin:10px
+}.control a{
+  color:black
+}.control a:hover{
+  color:#F95605
+}
