@@ -470,4 +470,6 @@ a { color: inherit; text-decoration: none;}
   color:black
 }.control a:hover{
   color:#F95605
+}.blogpost a:hover{
+  color:#F95605
 }
